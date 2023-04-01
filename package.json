@@ -1,0 +1,15 @@
+{
+  "name": "StressTesting API",
+  "version": "1.0.0",
+  "description": "exposes your scripts to the web",
+  "main": "index.js",
+  "author": "Sliden101",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fastify/bearer-auth": "^9.0.0",
+    "fastify": "^4.15.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "sshIP": "",
+    "sshPort": 22,
+    "sshUser": "root",
+    "sshPass": "password",
+    "key": "superkey"
+}
