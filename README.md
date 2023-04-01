@@ -1,3 +1,6 @@
+## StressTesting API
+Rewrite of previous api script.
+
 Welcome to the StressTesting API! This API provides a simple, easy-to-use interface for performing stress testing operations on a given host/port.
 
 It has a single endpoint, `/ddos`, that is accessible via a POST request. The body of the POST request should include 4 values:
